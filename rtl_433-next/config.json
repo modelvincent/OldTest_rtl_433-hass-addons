@@ -1,4 +1,4 @@
-nt{
+{
   "name": "rtl_433 (next)",
   "image": "ghcr.io/pbkhrv/rtl_433-hass-addons-rtl_433-next-{arch}",
   "version": "next",
