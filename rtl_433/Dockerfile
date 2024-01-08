@@ -18,7 +18,8 @@ RUN git clone https://github.com/modelvincent/rtl_433
 WORKDIR ./rtl_433
 
 # Build a specific commit or tag.
-ARG rtl433GitRevision=22.11
+#ARG rtl433GitRevision=22.11
+ARG rtl433GitRevision=2023.10.28.0
 RUN git checkout ${rtl433GitRevision}
 WORKDIR ./build
 RUN cmake ..
