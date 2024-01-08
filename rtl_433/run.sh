@@ -2,6 +2,9 @@
 
 conf_directory="/config/rtl_433"
 
+bashio::log.info "Ceci est une version modifiee"
+
+
 if bashio::services.available "mqtt"; then
     host=$(bashio::services "mqtt" "host")
     password=$(bashio::services "mqtt" "password")
