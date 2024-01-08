@@ -1,3 +1,7 @@
+## [0.4.2] - 2024-01-08
+
+* Fix wrong retain value when setting in mqtt connection string #149 by @cserem
+
 ## [0.4.1] - 2023-10-27
 
 * Fix wrong retain value when setting in mqtt connection string #149 by @cserem
