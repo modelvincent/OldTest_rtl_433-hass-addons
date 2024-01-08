@@ -1,5 +1,5 @@
 {
-  "name": "rtl_433 (next)",
+  "name": "rtl_433 (next Vincent)",
   #"image": "ghcr.io/pbkhrv/rtl_433-hass-addons-rtl_433-next-{arch}",
   "version": "next",
   "slug": "rtl433-next",
