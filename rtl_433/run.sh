@@ -29,8 +29,13 @@ then
     bashio::log.warning "rtl_433 now supports automatic configuration and multiple radios. The rtl_433_conf_file option is deprecated. See the documentation for migration instructions."
     conf_file="/config/$conf_file"
 
-    echo "Starting rtl_433 -c $conf_file"
-    rtl_433 -c "$conf_file"
+    #echo "Starting rtl_433 -c $conf_file"
+    #rtl_433 -c "$conf_file"
+
+    echo "Starting rtl_433 -R 215"
+    rtl_433 -R 215
+
+    
     exit $?
 fi
 
