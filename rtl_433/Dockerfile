@@ -26,7 +26,7 @@ RUN cmake ..
 RUN make -j 4
 
 WORKDIR /build/root
-WORKDIR /build/rtl_433/build
+WORKDIR /build/rtl_433-next/build
 RUN make DESTDIR=/build/root/ install
 
 FROM $BUILD_FROM
